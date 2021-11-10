@@ -1,5 +1,27 @@
 apiVersion: v1
 entries:
+  authservice:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2021-11-10T22:07:59.974863401Z"
+    description: A Helm chart for Kubernetes
+    digest: 2fb1134179f1f2784a65618491dabaa9711c1f0d627d3d31af3e05b18119d5a4
+    name: authservice
+    type: application
+    urls:
+    - https://github.com/sivakumarvunnam/helm-charts/releases/download/authservice-0.1.1/authservice-0.1.1.tgz
+    version: 0.1.1
+  projectservice:
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2021-11-10T22:08:00.052355888Z"
+    description: A Helm chart for Kubernetes
+    digest: 58a8fb89b5faca70d4117b7e07469f1c6b2d1c105d5b3562c605a72e76bea5c6
+    name: projectservice
+    type: application
+    urls:
+    - https://github.com/sivakumarvunnam/helm-charts/releases/download/projectservice-0.1.2/projectservice-0.1.2.tgz
+    version: 0.1.2
   ui:
   - apiVersion: v2
     appVersion: 1.16.0
